@@ -1,0 +1,81 @@
+body {
+    background: url('https://wallpaperaccess.com/full/175932.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1a1a1a !important;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #ddd !important;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #0d6efd !important;
+    font-weight: 500;
+}
+
+/* Glassy container */
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+}
+
+/* Heading */
+h2.text-primary {
+    color: #3399ff !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Search input */
+input.form-control {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+/* Cards */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #00aaff;
+}

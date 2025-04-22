@@ -1,0 +1,113 @@
+/* === GENERAL PAGE STYLING === */
+body {
+    background: url('https://wallpaperaccess.com/full/175932.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* === NAVBAR STYLING === */
+.navbar {
+    background-color: #111 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #ccc !important;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #0d6efd !important;
+    font-weight: 600;
+}
+
+/* === DIRECTORY TITLE & SEARCH === */
+h2.text-center {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+h2.text-primary {
+    color: #3399ff !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input.form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+    padding: 12px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+}
+
+input.form-control::placeholder {
+    color: #ccc;
+}
+
+/* === CARD STYLING === */
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 20px auto;
+    backdrop-filter: blur(8px);
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Profile image */
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid #0d6efd;
+}
+
+/* Button Styling */
+.btn-connect {
+    background: linear-gradient(135deg, #0d6efd, #00c6ff);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-connect:hover {
+    background: linear-gradient(135deg, #00c6ff, #0d6efd);
+    transform: scale(1.05);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 10px;
+    }
+}
